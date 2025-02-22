@@ -7,7 +7,14 @@
 .foto {
     border: 50px solid #76ccfe;
 }
-h1, h2, h3, h4, h5, h6, p {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 26px;
 }
 
@@ -37,8 +44,64 @@ p {
     font-size: 16pt;
     text-align: justify;
 }
-h1 { font-size: 40px;}
-h2 { font-size: 40px;}
-h3 { font-size: 40px;}
-h4 { font-size: 40px;}
-h5 { font-size: 40px;}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 40px;
+}
+
+button {
+    background-color: #fe76c5;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #76ccff;
+    height: 500px;
+    position: relative;
+}
+
+.img-axolote{
+    position: relative;
+    background: url(axalote.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    
+}
+.texto-rodape{
+    padding: 75px 35% 75px 18% ;
+    color: #fff;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px #f953b9;
+}
